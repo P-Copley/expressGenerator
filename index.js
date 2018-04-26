@@ -1,4 +1,3 @@
-const generate = require('./lib/generator')
+const generate = require('./lib/generator');
 
-
-generate('testing')
+generate('testing');
