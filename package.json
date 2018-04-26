@@ -1,6 +1,6 @@
 {
   "name": "expgenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/P-Copley/expressGenerator/issues"
   },
   "homepage": "https://github.com/P-Copley/expressGenerator#readme",
-  "bin" : {
-    "expgenerate" : "bin/expgenerate.js"
+  "bin": {
+    "expgenerate": "bin/expgenerate.js"
   }
 }
