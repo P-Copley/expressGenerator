@@ -1,3 +1,4 @@
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 const app = require('express')();
 const bodyParser = require('body-parser');
 const apiRouter = require('./routes/api.js');
