@@ -1,5 +1,5 @@
 {
-  "name": "expressGenerator",
+  "name": "expgenerator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "url": "https://github.com/P-Copley/expressGenerator/issues"
   },
   "homepage": "https://github.com/P-Copley/expressGenerator#readme",
-  "dependencies": {
-    "express": "^4.16.3"
+  "bin" : {
+    "expgenerate" : "bin/expgenerate.js"
   }
 }
