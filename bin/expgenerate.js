@@ -1,4 +1,5 @@
 #! /usr/bin/env node
 
-const generate = require('../lib/generator');
-generate(process.argv[2] || '.');
+const { generate, rootGenerate } = require('../lib/generator');
+
+process.argv[2] ? generate(process.argv[2]) : rootGenerate();
