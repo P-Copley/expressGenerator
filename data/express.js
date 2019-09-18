@@ -15,3 +15,6 @@ exports.config = fs.readFileSync(
 exports.gitignore = fs.readFileSync(
   path.join(__dirname, '..', 'templates/gitignore.txt')
 );
+exports.errorControllers = fs.readFileSync(
+  path.join(__dirname, '..', 'templates/errors.js')
+);
